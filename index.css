@@ -1,0 +1,121 @@
+.highest-number__section{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.buttonlist {
+    width: 135px;
+    height: 35px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 0px 0px #00000040;
+}
+
+.paper-rock-scissors__section {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.paper-rock-scissors__button {
+    width: 256px;
+    height: 60px;
+    border-radius: 20px;
+    color: #ffffff;
+    background-color: #000000;
+    gap: 50px;
+    align-items: center;
+}
+
+.time-calculator__section {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.calculator__section {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.input__calculator {
+    border-radius: 20px;
+    width: 135px;
+    height: 15px;
+    padding: 10px 20px;
+    color: #D7D7D7;
+    box-shadow: 3px 3px 0px 0px #00000040;
+}
+
+.input-num__calculator {
+    border-radius: 20px;
+    width: 135px;
+    height: 15px;
+    padding: 10px 20px;
+    color: #D7D7D7;
+    box-shadow: 3px 3px 0px 0px #00000040;
+}
+
+.input-time__calculator {
+    border-radius: 20px;
+    width: 135px;
+    height: 15px;
+    padding: 10px 20px;
+    color: #D7D7D7;
+    box-shadow: 3px 3px 0px 0px #00000040;
+}
+
+.calc-function__list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 27px;
+    height: 25px;
+    top: 909px;
+    left: 578px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 20px;
+    gap: 10px;
+    align-items: center;
+}
+
+.scientist__button {
+    width: 227px;
+    height: 35px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    gap: 10px;
+    box-shadow: 3px 3px 0px 0px #00000040;
+}
+
+.scientist__button:nth-child(1),
+.scientist__button:nth-child(2) {
+    width: 282px;
+}
+
+.scientist__button:nth-child(3) {
+    width: 380px;
+}
+
+.scientist__button:nth-child(4) {
+    width: 329px;
+}
+
+.scientist__button:nth-child(5) {
+    width: 298px;
+}
+
+.scientist__button:nth-child(6) {
+    width: 441px;
+}
+
+.scientist__button:nth-child(7) {
+    width: 375px;
+}
+
+.scientist__button:nth-child(8) {
+    width: 368px;
+    height: 50px;
+}
