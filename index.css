@@ -1,3 +1,4 @@
+
 .highest-number__section{
     display: flex;
     justify-content: center;
@@ -118,4 +119,11 @@
 .scientist__button:nth-child(8) {
     width: 368px;
     height: 50px;
+}
+
+.calc-function__list {
+    display: block;
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
 }

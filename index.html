@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -40,27 +43,32 @@
     <section class="calculator__section">
         <h1 class="calculator__title">Калькулятор</h1>
         <input class="input__calculator" type="text" placeholder="Введіть число">
-        <button class="calc-function__list" type="button">
-            +
+        <ul class="calc-math__list">
+            <button class="calc-function__list" type="button">
+               +
+            </button>
+            <button class="calc-function__list" type="button">
+                -
+            </button>
+            <button class="calc-function__list" type="button">
+                *
+            </button>
+            <button class="calc-function__list" type="button">
+                /
+            </button>
+            </ul>
+            <input class="input__calculator" type="text" placeholder="Введіть число">
+            <button class="calc-function__list" type="button">
+                = 
         </button>
-        <button class="calc-function__list" type="button">
-            -
-        </button>
-        <button class="calc-function__list" type="button">
-            *
-        </button>
-        <button class="calc-function__list" type="button">
-            /
-        </button>
-        <input class="input__calculator" type="text" placeholder="Введіть число">
-        <button class="calc-function__list" type="button">
-            = 
-        </button>
+        
+        
         <input class="input__calculator" type="text" placeholder="результат">
     </section>
 
     <section class="scientist__section">
         <h1 class="scientist__title">Обери вченого</h1>
+        
         <button class="scientist__button">Які вчені народилися в 19 ст.</button>
         <button class="scientist__button">Відсортувати вчених за алфавітом</button>
         <button class="scientist__button">Відсортувати вчених за кількістю прожитих років</button>
