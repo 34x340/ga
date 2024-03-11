@@ -35,7 +35,7 @@ button {
 
 /* HIGHEST NUMBER STYLES */
 
-.highest-number__title {
+/* .highest-number__title {
     display: flex;
     justify-content: center;
 }
@@ -62,4 +62,36 @@ button {
     padding-left: 14.63px;
     box-shadow: 3px 3px 0px 0px #00000040;
     border-radius: 20px;
+} */
+
+
+.calculator__title {
+    display: flex;
+    justify-content: center;
 }
+
+.input-button {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.input-time__calculator {
+    outline: 0;
+    border: 0;
+    width: 150px;
+    height: 35px;
+    padding: 10px, 20px, 10px, 20px;
+    background-color: #D7D7D7;
+    padding-left: 14.63px;
+    box-shadow: 3px 3px 0px 0px #00000040;
+    border-radius: 20px;
+    
+  }
+  
+.button-time__calculator {
+    width: 35px;
+    height: 35px;
+    padding: 10px;
+    border-radius: 0px 20px 20px 0px;
+  }
