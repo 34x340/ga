@@ -6,28 +6,67 @@
     <title>Document</title>
     <link rel="stylesheet" href="./index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <!-- <section class="prs__section">
+<!-- PRS =  PAPER-ROCK-SCISSORS PAPER-ROCK-SCISSORS PAPER-ROCK-SCISSORS PAPER-ROCK-SCISSORS PAPER-ROCK-SCISSORS -->
+
+    <section class="prs__section">
+
+        <div class="vector__prs">
+            <img src="./images/Vector.png" alt="vector">
+        </div>
+
         <h1 class="prs__title">Камінь - ножиці - папір</h1>
+
         <ul class="prs-button__list">
-            <button type="button" class="prs__button">paper</button>
-            <button type="button" class="prs__button">rock</button>
-            <button type="button" class="prs__button">scissors</button>
+            <li class="prs__buttom">
+                <button type="button">
+                    <svg width="40" height="40" class="">
+                        <use href="./svg/paper.svg#stone-svg"></use>
+                    </svg>
+                </button>
+            </li>
+            <li class="prs__buttom">
+                <button type="button">
+                    <svg width="40" height="40" class="">
+                        <use href=""></use>
+                    </svg>
+                </button>
+            </li>
+            <li class="prs__buttom">
+                <button type="button">
+                    <svg width="40" height="40" class="">
+                        <use href=""></use>
+                    </svg>
+                </button>
+            </li>
         </ul>
-        
-        <p class="prs__text" >Рахунок:
-            Комп’ютер - 0 <br>
-            Ви - 0</p>
-        <p class="win-or-lose">Ви виграли раунд!</p>
 
-        <button class="prs-computer__button">Варіант комп'ютера</button>
-    </section> -->
+        <ul class="score__list">
+            <li class="score__item">
+                Рахунок
+            </li>
+            <li class="score__item">
+                Комп'ютер - 
+            </li>
+            <li class="score__item">
+                Ви - 
+            </li>
+        </ul>
+    
+        <p class="prs__winOrLose">
+            Ви виграли раунд!
+        </p>
 
-   <!-- <section class="highest-number__section">
+        <button type="button" class="prs-computer__button">
+            Варіант комп'ютера
+        </button>
+    </section>
+
+    <!-- <section class="highest-number__section">
 
     <h1 class="highest-number__title">Введіть три числа</h1>
 
@@ -38,7 +77,7 @@
     </ul>
     
     <p class="highest-number__text">Найбільше число, яке ви ввели -</p>
-    </section> -->
+    </section>  -->
 
     <!-- <section class="time-calculator__section">
         <h1 class="calculator__title">Калькулятор часу</h1>
@@ -51,26 +90,38 @@
         
     </section> -->
 
-    <section class="calculator__section">
+    <!-- Калькулятор Калькулятор Калькулятор Калькулятор Калькулятор Калькулятор Калькулятор Калькулятор -->
 
-    <img src="" alt="">
+    <!-- <section class="calculator__section">
+
+    <div class="vector">
+        <img class="vector__img" src="./images/Vector.png" alt="vector">
+    </div>
+    
 
     <h1 class="calculator__title">Калькулятор</h1>
 
     <div class="calculator__container" id="calculator">
         <input class="input__calculator" type="text" id="first-input" placeholder="Введіть число">
-        <button class="button__calculator" type="button" id="+">
-            +
-        </button>
-        <button class="button__calculator" type="button" id="-">
-            -
-        </button>
-        <button class="button__calculator" type="button" id="*">
-            *
-        </button>
-        <button class="button__calculator" type="button" id="/">
-            /
-        </button>
+        <ul class="button__list">
+            <li class="button__element"><button class="button__calculator" type="button" id="+">
+                +
+            </button>
+        </li>
+            <li class="button__element"><button class="button__calculator" type="button" id="-">
+                -
+            </button>
+        </li>
+            <li class="button__element"><button class="button__calculator" type="button" id="*">
+                *
+            </button>
+        </li>
+            <li class="button__element"><button class="button__calculator" type="button" id="/">
+                /
+            </button>
+        </li>
+        </ul>
+        
         <input class="input__calculator" type="text" id="second-input" placeholder="Введіть число">
         <button class="button__calculator" type="button" id="=">
             =
@@ -78,9 +129,13 @@
         <input class="input__calculator" type="text" id="second-input" placeholder="Результат">
     </div>
 
-    </section>
+    <div class="vector">
+        <img class="vector__img" src="./images/Vector.png" alt="vector">
+    </div>
 
-    <!-- <section class="scientist__section">
+    </section> -->
+
+     <!-- <section class="scientist__section">
         <h1 class="scientist__title">Обери вченого</h1>
         
         <button class="scientist__button">Які вчені народилися в 19 ст.</button>
@@ -91,8 +146,8 @@
         <button class="scientist__button">Знайти вчених, прізвища яких починаються на на літеру “С” </button>
         <button class="scientist__button">Видалити всіх вчених, ім’я яких починається на “А”</button>
         <button class="scientist__button">Знайти вченого, який прожив найдовше і вченого, який прожив найменше</button>
-    </section> 
-     -->
+    </section>  -->
+     
     <script type="module" src="./index.js"></script>
 </body>
 </html>

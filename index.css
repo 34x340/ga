@@ -3,104 +3,52 @@ button {
     border-style: none;
 }
 
-/* .prs__title {
+li {
+    list-style: none;
+}
+
+
+/* КАМІНЬ-НОЖИЦІ-ПАПІР  КАМІНЬ-НОЖИЦІ-ПАПІР  КАМІНЬ-НОЖИЦІ-ПАПІР  КАМІНЬ-НОЖИЦІ-ПАПІР  КАМІНЬ-НОЖИЦІ-ПАПІР  КАМІНЬ-НОЖИЦІ-ПАПІР */
+.prs__section {
+    font-family: "Montserrat Alternates", solid;
+    font-weight: 400;
+}
+
+.vector__prs {
+    display: flex;
+    justify-content: center;
+}
+
+.prs__title {
+    font-family: "Montserrat Alternates", solid;
+    font-weight: 400;
     display: flex;
     justify-content: center;
 }
 
 .prs-button__list {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+    width: 256px;
     height: 60px;
-    width: 60px;
     border-radius: 20px;
     background-color: black;
 }
 
-.prs__text {
-    display: flex;
-    justify-content: end;
-}
 
-.win-or-lose {
-    display: flex;
-    justify-content: space-evenly;
-}
 
-.prs-computer__button {
+
+/*  КАЛЬКУЛЯТОР КАЛЬКУЛЯТОР КАЛЬКУЛЯТОР КАЛЬКУЛЯТОР КАЛЬКУЛЯТОР КАЛЬКУЛЯТОР */
+
+/* .vector {
     display: flex;
     justify-content: center;
-} */
-
-/* HIGHEST NUMBER STYLES */
-
-/* .highest-number__title {
-    display: flex;
-    justify-content: center;
+    color: #000000;
 }
-
-.input-num__list {
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-}
-
-.highest-number__text {
-    display: flex;
-    justify-content: center;
-}
-
-.input-num__calculator{
-    outline: 0;
-    border: 0;
-    width: 135px;
-    height: 35px;
-    padding: 10px, 20px, 10px, 20px;
-    background-color: #D7D7D7;
-    padding-left: 14.63px;
-    box-shadow: 3px 3px 0px 0px #00000040;
-    border-radius: 20px;
-} */
-
-/* КАЛЬКУЛЯТОР ЧАСУ */
-
-/* .calculator__title {
-    display: flex;
-    justify-content: center;
-}
-
-.input-button {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-}
-
-.input-time__calculator {
-    outline: 0;
-    border: 0;
-    width: 150px;
-    height: 35px;
-    padding: 10px, 20px, 10px, 20px;
-    background-color: #D7D7D7;
-    padding-left: 14.63px;
-    box-shadow: 3px 3px 0px 0px #00000040;
-    border-radius: 20px;
-  }
-  
-.button-time__calculator {
-    width: 35px;
-    height: 35px;
-    padding: 10px;
-    border-radius: 0px 20px 20px 0px;
-  } */
-
-/* КАЛЬКУЛЯТОР */
 
 .calculator__title {
     display: flex;
     justify-content: center;
+    font-family: "Montserrat Alternates", solid;
+    font-weight: 400;
 }
 
 .calculator__container {
@@ -118,6 +66,8 @@ button {
     padding-left: 14.63px;
     box-shadow: 3px 3px 0px 0px #00000040;
     border-radius: 20px;
+    font-family: "Montserrat Alternates", solid;
+    font-weight: 400;
 }
 
 .button__calculator {
@@ -127,4 +77,18 @@ button {
     padding: 5px, 10px, 5px, 10px;
     background-color: black;
     color: #D7D7D7;
+    box-shadow: 3px 3px 0px 0px #00000040; 
 }
+
+.button__list {
+    display: flex;
+    list-style: none;
+    width: 62px;
+    height: 60px;
+    border-radius: 20px;
+    flex-wrap: wrap;
+}
+
+.button__element {
+
+} */
