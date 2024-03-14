@@ -17,28 +17,4 @@
 //     document.getElementById('start-timer').innerText = `Time: ${hoursResult}h ${minutesResult}m ${secondsResult}s`;
 //   }
 
-// КАЛЬКУЛЯТОР !!!!!!!!!!!!!!
-
-// function calculate() {
-//   let result = document.getElementById('result-input');
-//   let firstNum = document.getElementById('first-input').value;
-//   let calculate = document.getElementById('op').value;
-//   let secondNum = document.getElementById('second-input').value;
-//   if(calculate === '+')
-//   {
-//     result = firstNum + secondNum;
-//   }
-//   elseif(calculate === '-')
-//   {
-//     result = firstNum - secondNum;
-//   }
-//   elseif(calculate === '*')
-//   {
-//     result = firstNum * secondNum;
-//   }
-//   elseif(calculate === '/')
-//   {
-//     result = firstNum / secondNum;
-//   }
-//   document.getElementById('result').innerHTML = D;
-// }
+// КАЛЬКУЛЯТОР ЧАСУ !!!!!!!!!!!!!!

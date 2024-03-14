@@ -11,62 +11,13 @@
 </head>
 <body>
 
-<!-- PRS =  PAPER-ROCK-SCISSORS PAPER-ROCK-SCISSORS PAPER-ROCK-SCISSORS PAPER-ROCK-SCISSORS PAPER-ROCK-SCISSORS -->
 
-    <section class="prs__section">
+    <!-- ЧИСЛО НАЙВИЩЕ ЧИСЛО НАЙВИЩЕ ЧИСЛО НАЙВИЩЕ ЧИСЛО ЧИСЛО НАЙВИЩЕ ЧИСЛО НАЙВИЩЕ ЧИСЛО НАЙВИЩЕ ЧИСЛО ЧИСЛО НАЙВИЩЕ ЧИСЛО НАЙВИЩЕ ЧИСЛО НАЙВИЩЕ ЧИСЛО -->
+    <section class="highest-number__section"></section>
 
-        <div class="vector__prs">
-            <img src="./images/Vector.png" alt="vector">
-        </div>
-
-        <h1 class="prs__title">Камінь - ножиці - папір</h1>
-
-        <ul class="prs-button__list">
-            <li class="prs__buttom">
-                <button type="button">
-                    <svg width="40" height="40" class="">
-                        <use href="./svg/paper.svg#stone-svg"></use>
-                    </svg>
-                </button>
-            </li>
-            <li class="prs__buttom">
-                <button type="button">
-                    <svg width="40" height="40" class="">
-                        <use href=""></use>
-                    </svg>
-                </button>
-            </li>
-            <li class="prs__buttom">
-                <button type="button">
-                    <svg width="40" height="40" class="">
-                        <use href=""></use>
-                    </svg>
-                </button>
-            </li>
-        </ul>
-
-        <ul class="score__list">
-            <li class="score__item">
-                Рахунок
-            </li>
-            <li class="score__item">
-                Комп'ютер - 
-            </li>
-            <li class="score__item">
-                Ви - 
-            </li>
-        </ul>
-    
-        <p class="prs__winOrLose">
-            Ви виграли раунд!
-        </p>
-
-        <button type="button" class="prs-computer__button">
-            Варіант комп'ютера
-        </button>
-    </section>
-
-    <!-- <section class="highest-number__section">
+    <div class="vector__prs">
+        <img src="./images/Vector.png" alt="vector">
+    </div>
 
     <h1 class="highest-number__title">Введіть три числа</h1>
 
@@ -77,77 +28,169 @@
     </ul>
     
     <p class="highest-number__text">Найбільше число, яке ви ввели -</p>
-    </section>  -->
+    </section>
 
-    <!-- <section class="time-calculator__section">
-        <h1 class="calculator__title">Калькулятор часу</h1>
-        <ul class="input-button">
+    <!-- КАЛЬКУЛЯТОР ЧАСУ КАЛЬКУЛЯТОР ЧАСУ КАЛЬКУЛЯТОР ЧАСУ КАЛЬКУЛЯТОР ЧАСУ КАЛЬКУЛЯТОР ЧАСУ КАЛЬКУЛЯТОР ЧАСУ КАЛЬКУЛЯТОР ЧАСУ -->
+
+    <section class="time-calculator__section">
+        <div class="vector__prs">
+            <img src="./images/Vector.png" alt="vector">
+        </div>
+
+        <h1 class="time-calculator__title">Калькулятор часу</h1>
+        <ul class="time-input__list">
             <input class="input-time__calculator" type="text submit" placeholder="Введіть число" id="start-timer">
-            <button type="submit" class="button-time__calculator">search</button>
-            <p class="vector">- - - - -</p>
-            <p class="calc__time">3 дн. 15:45:01</p>
+            <button type="submit" class="time-button__calculator">search</button>
+            <p class="time-calc__stroke">- - - - -</p>
+            <p class="time-calc__time">3 дн. 15:45:01</p>
         </ul>
         
-    </section> -->
+    </section> 
+    <!-- PRS =  PAPER-ROCK-SCISSORS PAPER-ROCK-SCISSORS PAPER-ROCK-SCISSORS PAPER-ROCK-SCISSORS PAPER-ROCK-SCISSORS --> 
+
+    <section class="prs__section">
+
+        <div class="vector__prs">
+            <img src="./images/Vector.png" alt="vector">
+        </div>
+
+        <h1 class="prs__title">Камінь - ножиці - папір</h1>
+
+        <div class="prs__select">
+            <ul class="prs-button__list">
+            <li class="prs-button__item">
+                <button class="prs__button" type="button">
+                
+                </button>
+            </li>
+            <li class="prs-button__item">
+                <button class="prs__button" type="button">
+                    
+                </button>
+            </li>
+            <li class="prs-button__item">
+                <button class="prs__button" type="button">
+                    
+                </button>
+            </li>
+            <li >
+                <ul class="score__list">
+                    <li class="score__item">
+                        Рахунок:
+                    </li>
+                    <li class="score__item">
+                        Комп'ютер - 
+                    </li>
+                    <li class="score__item">
+                        Ви - 
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+        
+        
+    
+        <p class="prs__winOrLose" id="winOrLose">
+            Ви виграли раунд!
+        </p>
+
+        <button type="button" class="prs-computer__button">
+            Варіант комп'ютера
+        </button>
+    </section>
+
 
     <!-- Калькулятор Калькулятор Калькулятор Калькулятор Калькулятор Калькулятор Калькулятор Калькулятор -->
 
-    <!-- <section class="calculator__section">
+     <section class="calculator__section">
 
     <div class="vector">
         <img class="vector__img" src="./images/Vector.png" alt="vector">
     </div>
     
 
-    <h1 class="calculator__title">Калькулятор</h1>
+    <h1 class="calculator__title">Калькулятор</h1> 
 
     <div class="calculator__container" id="calculator">
         <input class="input__calculator" type="text" id="first-input" placeholder="Введіть число">
         <ul class="button__list">
-            <li class="button__element"><button class="button__calculator" type="button" id="+">
-                +
-            </button>
-        </li>
-            <li class="button__element"><button class="button__calculator" type="button" id="-">
-                -
-            </button>
-        </li>
-            <li class="button__element"><button class="button__calculator" type="button" id="*">
-                *
-            </button>
-        </li>
-            <li class="button__element"><button class="button__calculator" type="button" id="/">
-                /
-            </button>
-        </li>
+            <li class="button__element">
+                <button class="button__calculator" type="button" id="plus">+</button>
+            </li>
+            <li class="button__element">
+                <button class="button__calculator" type="button" id="minus">-</button>
+            </li>
+            <li class="button__element">
+                <button class="button__calculator" type="button" id="multiply">*</button>
+            </li>
+            <li class="button__element">
+                <button class="button__calculator" type="button" id="division">/</button>
+            </li>
         </ul>
         
         <input class="input__calculator" type="text" id="second-input" placeholder="Введіть число">
-        <button class="button__calculator" type="button" id="=">
+        <button class="button__calculator" type="button" id="equals">
             =
         </button>
-        <input class="input__calculator" type="text" id="second-input" placeholder="Результат">
+        <p class="calc__result" id="result-p"></p>
     </div>
+
 
     <div class="vector">
         <img class="vector__img" src="./images/Vector.png" alt="vector">
     </div>
+    
+    <!-- ОБЕРИ ВЧЕНОГО ОБЕРИ ВЧЕНОГО ОБЕРИ ВЧЕНОГО ОБЕРИ ВЧЕНОГО ОБЕРИ ВЧЕНОГО ОБЕРИ ВЧЕНОГО  -->
 
-    </section> -->
+    <section class="scientist__section">
+        <div class="vector">
+            <img class="vector__img" src="./images/Vector.png" alt="vector">
+        </div>
+        <h1 class="scientist__title">Обери вченого/их</h1>
 
-     <!-- <section class="scientist__section">
-        <h1 class="scientist__title">Обери вченого</h1>
-        
-        <button class="scientist__button">Які вчені народилися в 19 ст.</button>
-        <button class="scientist__button">Відсортувати вчених за алфавітом</button>
-        <button class="scientist__button">Відсортувати вчених за кількістю прожитих років</button>
-        <button class="scientist__button">Знайти вченого, який народився найпізніше</button>
-        <button class="scientist__button">Знайти рік народження Albert Einshtein</button>
-        <button class="scientist__button">Знайти вчених, прізвища яких починаються на на літеру “С” </button>
-        <button class="scientist__button">Видалити всіх вчених, ім’я яких починається на “А”</button>
-        <button class="scientist__button">Знайти вченого, який прожив найдовше і вченого, який прожив найменше</button>
-    </section>  -->
-     
+        <ul class="scientist__list">
+            <li class="scientist__item">
+                <img class="scientist__photo" src="./images/galilei.jpg" alt="galilei">
+            </li>
+            <li class="scientist__item">
+                <img class="scientist__photo" src="./images/galilei.jpg" alt="galilei">
+            </li>
+            <li class="scientist__item">
+                <img class="scientist__photo" src="./images/galilei.jpg" alt="galilei">
+            </li>
+            <li class="scientist__item">
+                <img class="scientist__photo" src="./images/galilei.jpg" alt="galilei">
+            </li>
+            <li class="scientist__item">
+                <img class="scientist__photo" src="./images/galilei.jpg" alt="galilei">
+            </li>
+            <li class="scientist__item">
+                <img class="scientist__photo" src="./images/galilei.jpg" alt="galilei">
+            </li>
+            <li class="scientist__item">
+                <img class="scientist__photo" src="./images/galilei.jpg" alt="galilei">
+            </li>
+            <li class="scientist__item">
+                <img class="scientist__photo" src="./images/galilei.jpg" alt="galilei">
+            </li>
+            <li class="scientist__item">
+                <img class="scientist__photo" src="./images/galilei.jpg" alt="galilei">
+            </li>
+            <li class="scientist__item">
+                <img class="scientist__photo" src="./images/galilei.jpg" alt="galilei">
+            </li>
+            <li class="scientist__item">
+                <img class="scientist__photo" src="./images/galilei.jpg" alt="galilei">
+            </li>
+            <li class="scientist__item">
+                <img class="scientist__photo" src="./images/galilei.jpg" alt="galilei">
+            </li>
+        </ul>
+
+    </section>
+
+    
     <script type="module" src="./index.js"></script>
 </body>
 </html>
