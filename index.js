@@ -81,3 +81,132 @@ const choices = ["rock", "paper", "scissors"];
         document.getElementById("comp-score-text").innerHTML = computerWins;
         document.getElementById("user-score-text").innerHTML= userWins;
     }
+
+    // КАЛЬКУЛЯТОР КАЛЬКУЛЯТОР КАЛЬКУЛЯТОР КАЛЬКУЛЯТОР КАЛЬКУЛЯТОР КАЛЬКУЛЯТОР КАЛЬКУЛЯТОР 
+
+    document.getElementById('equals').addEventListener('click', function() {
+        let firstNumber = parseFloat(document.getElementById('first-input').value);
+        let secondNumber = parseFloat(document.getElementById('second-input').value);
+        let operation = document.querySelector('.button__list .active').textContent.trim();
+        let result;
+        
+        switch(operation) {
+            case '+':
+                result = firstNumber + secondNumber;
+                break;
+            case '-':
+                result = firstNumber - secondNumber;
+                break;
+            case '*':
+                result = firstNumber * secondNumber;
+                break;
+            case '/':
+                result = firstNumber / secondNumber;
+                break;
+            default:
+                result = "Invalid operation";
+        }
+        
+        document.getElementById('result-p').textContent = result;
+    });
+    
+    let buttons = document.querySelectorAll('.button__calculator');
+    buttons.forEach(function(button) {
+        button.addEventListener('click', function() {
+            buttons.forEach(function(btn) {
+                btn.classList.remove('active');
+            });
+            this.classList.add('active');
+        });
+    });
+
+    // ВЧЕНІ ВЧЕНІ ВЧЕНІ ВЧЕНІ ВЧЕНІ ВЧЕНІ ВЧЕНІ ВЧЕНІ ВЧЕНІ ВЧЕНІ ВЧЕНІ ВЧЕНІ ВЧЕНІ ВЧЕНІ ВЧЕНІ 
+    
+    const scientists = [ 
+        {
+            name: "Marie",
+            surname: "Curie",
+            born: 1867,
+            dead: 1934
+        },
+        {
+            name: "Charles",
+            surname: "Darwin",
+            born: 1809,
+            dead: 1882
+        },
+        {
+            name: "Alexander",
+            surname: "Fleming",
+            born: 1881,
+            dead: 1955
+        },
+        {
+            name: "Gregor",
+            surname: "Mendel",
+            born: 1822,
+            dead: 1884
+        },
+        {
+            name: "Thomas",
+            surname: "Edison",
+            born: 1847,
+            dead: 1931
+        },
+        {
+            name: "Albert",
+            surname: "Einstein",
+            born: 1879,
+            dead: 1955
+        },
+        {
+            name: "Nikola",
+            surname: "Tesla",
+            born: 1856,
+            dead: 1943
+        },
+        {
+            name: "Louis",
+            surname: "Pasteur",
+            born: 1822,
+            dead: 1895
+        },
+        {
+            name: "Michael",
+            surname: "Faraday",
+            born: 1791,
+            dead: 1867
+        },
+        {
+            name: "William",
+            surname: "Herschel",
+            born: 1738,
+            dead: 1822
+        },
+        {
+            name: "Galileo",
+            surname: "Galilei",
+            born: 1564,
+            dead: 1642
+        },
+        {
+            name: "Jacques",
+            surname: "Curie",
+            born: 1859,
+            dead: 1906
+        }
+    ];
+
+    const prompts = [
+        'Які вчені народилися в 19 ст.',
+        'Відсортувати вчених за алфавітом',
+        'Відсортувати вчених за кількістю прожитих років',
+        'Знайти вченого, який народився найпізніше',
+        'Знайти рік народження Albert Einstein',
+        'знайти вчених прізвище яких починається на літеру С',
+        'Видалити з масива всіх вчених імя яких починається на A',
+        'Знайти вченого який прожив найбільше і вченого який прожив найменьше',
+        'Знайти вчених в яких співпадають перші літери імені і прізвища',
+    ];
+
+    

@@ -8,6 +8,14 @@ li {
     list-style: none;
 }
 
+
+.svg__logo {
+    fill: #000000;
+    width: 40px;
+    height: 38.6px;
+    display: block;
+}
+
 /* КАЛЬКУЛЯТОР ЧАСУ КАЛЬКУЛЯТОР ЧАСУ КАЛЬКУЛЯТОР ЧАСУ КАЛЬКУЛЯТОР ЧАСУ КАЛЬКУЛЯТОР ЧАСУ КАЛЬКУЛЯТОР ЧАСУ КАЛЬКУЛЯТОР ЧАСУ */
 
 .time-calculator__title {
@@ -256,7 +264,6 @@ li {
 }
 
 
-
 .calc__result {
     outline: 0;
     border: 0;
@@ -267,9 +274,13 @@ li {
     padding-left: 14.63px;
     box-shadow: 3px 3px 0px 0px #00000040;
     border-radius: 20px;
-    font-family: "Montserrat Alternates", solid;
+    font-family: Montserrat Alternates;
+    font-size: 12px;
     font-weight: 400;
-}
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    }
 
 /* ОБЕРИ ВЧЕНОГО ОБЕРИ ВЧЕНОГО ОБЕРИ ВЧЕНОГО ОБЕРИ ВЧЕНОГО ОБЕРИ ВЧЕНОГО ОБЕРИ ВЧЕНОГО ОБЕРИ ВЧЕНОГО ОБЕРИ ВЧЕНОГО  */
 
