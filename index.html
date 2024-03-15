@@ -22,12 +22,12 @@
     <h1 class="highest-number__title">Введіть три числа</h1>
 
     <ul class="input-num__list">
-        <input class="input-num__calculator" type="text" placeholder="Введіть число">
-        <input class="input-num__calculator" type="text" placeholder="Введіть число">
-        <input class="input-num__calculator" type="text" placeholder="Введіть число">
+        <input class="input-num__calculator" type="text" placeholder="Введіть число" id="one-input">
+        <input class="input-num__calculator" type="text" placeholder="Введіть число" id="two-input">
+        <input class="input-num__calculator" type="text" placeholder="Введіть число" id="three-input">
     </ul>
     
-    <p class="highest-number__text">Найбільше число, яке ви ввели -</p>
+    <p class="highest-number__text" id="time-result">Найбільше число, яке ви ввели -</p>
     </section>
 
     <!-- КАЛЬКУЛЯТОР ЧАСУ КАЛЬКУЛЯТОР ЧАСУ КАЛЬКУЛЯТОР ЧАСУ КАЛЬКУЛЯТОР ЧАСУ КАЛЬКУЛЯТОР ЧАСУ КАЛЬКУЛЯТОР ЧАСУ КАЛЬКУЛЯТОР ЧАСУ -->
@@ -42,7 +42,7 @@
             <input class="input-time__calculator" type="text submit" placeholder="Введіть число" id="start-timer">
             <button type="submit" class="time-button__calculator">search</button>
             <p class="time-calc__stroke">- - - - -</p>
-            <p class="time-calc__time">3 дн. 15:45:01</p>
+            <p class="time-calc__time"></p>
         </ul>
         
     </section> 
@@ -59,30 +59,30 @@
         <div class="prs__select">
             <ul class="prs-button__list">
             <li class="prs-button__item">
-                <button class="prs__button" type="button">
-                
+                <button class="prs__button" type="button" id="rock-button">
+                    камінь
                 </button>
             </li>
             <li class="prs-button__item">
-                <button class="prs__button" type="button">
-                    
+                <button class="prs__button" type="button" id="scissors-button">
+                    ножиці
                 </button>
             </li>
             <li class="prs-button__item">
-                <button class="prs__button" type="button">
-                    
+                <button class="prs__button" type="button" id="paper-button">
+                    папір
                 </button>
             </li>
             <li >
                 <ul class="score__list">
-                    <li class="score__item">
+                    <li class="score__item" id="score">
                         Рахунок:
                     </li>
-                    <li class="score__item">
-                        Комп'ютер - 
+                    <li class="score__item" id="computer-score">
+                        Комп'ютер - <p class="score__text" id="comp-score-text"></p>
                     </li>
-                    <li class="score__item">
-                        Ви - 
+                    <li class="score__item" id="user-score">
+                        Ви - <p class="score__text"  id="user-score-text"></p>
                     </li>
                 </ul>
             </li>
@@ -92,10 +92,10 @@
         
     
         <p class="prs__winOrLose" id="winOrLose">
-            Ви виграли раунд!
+            
         </p>
 
-        <button type="button" class="prs-computer__button">
+        <button type="button" class="prs-computer__button" id="computer-variant">
             Варіант комп'ютера
         </button>
     </section>
@@ -130,7 +130,7 @@
         </ul>
         
         <input class="input__calculator" type="text" id="second-input" placeholder="Введіть число">
-        <button class="button__calculator" type="button" id="equals">
+        <button class="ebutton__calculator" type="button" id="equals">
             =
         </button>
         <p class="calc__result" id="result-p"></p>
