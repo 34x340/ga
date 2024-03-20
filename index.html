@@ -12,8 +12,16 @@
 <body>
     <!-- ХЕДЕР ХЕДЕР ХЕДЕР ХЕДЕР ХЕДЕР ХЕДЕР ХЕДЕР ХЕДЕР ХЕДЕР ХЕДЕР ХЕДЕР ХЕДЕР ХЕДЕР ХЕДЕР ХЕДЕР ХЕДЕР ХЕДЕР ХЕДЕР ХЕДЕР -->
     <svg class="svg__logo">
-        <use  href="./svg/logo.svg#logo-icon"></use>
+        <use  href="./svg/logo.svg#icon-logo"></use>
     </svg>
+
+    <!-- <img class="logo__header" src="./images/Group 4.png" alt="logo"> -->
+
+    <ul class="joice__list">
+        <li class="joice__item">Інтерактив</li>
+        <li class="joice__item">Наша команда</li>
+        <li class="joice__item">Контакти</li>
+    </ul>
 
     <!-- ЧИСЛО НАЙВИЩЕ ЧИСЛО НАЙВИЩЕ ЧИСЛО НАЙВИЩЕ ЧИСЛО ЧИСЛО НАЙВИЩЕ ЧИСЛО НАЙВИЩЕ ЧИСЛО НАЙВИЩЕ ЧИСЛО ЧИСЛО НАЙВИЩЕ ЧИСЛО НАЙВИЩЕ ЧИСЛО НАЙВИЩЕ ЧИСЛО -->
     <section class="highest-number__section"></section>
@@ -39,14 +47,18 @@
         <div class="vector__prs">
             <img src="./images/Vector.png" alt="vector">
         </div>
-
+        
         <h1 class="time-calculator__title">Калькулятор часу</h1>
-        <ul class="time-input__list">
-            <input class="input-time__calculator" type="text submit" placeholder="Введіть число" id="start-timer">
-            <button type="submit" class="time-button__calculator">search</button>
-            <p class="time-calc__stroke">- - - - -</p>
-            <p class="time-calc__time"></p>
-        </ul>
+        <div class="time-calculator__list">
+            <ul class="time-input__list">
+                <input class="input-time__calculator" type="text submit" placeholder="Введіть число" id="start-timer">
+                <button type="submit" class="time-button__calculator">  </button>
+            </ul>
+                <img class="time-calc__stroke" src="./images/Vector-2.png" alt="vector">
+                <p class="time-calc__time">час</p>
+        </div>
+        
+        
         
     </section> 
     <!-- PRS =  PAPER-ROCK-SCISSORS PAPER-ROCK-SCISSORS PAPER-ROCK-SCISSORS PAPER-ROCK-SCISSORS PAPER-ROCK-SCISSORS --> 
@@ -146,101 +158,15 @@
     
     <!-- ОБЕРИ ВЧЕНОГО ОБЕРИ ВЧЕНОГО ОБЕРИ ВЧЕНОГО ОБЕРИ ВЧЕНОГО ОБЕРИ ВЧЕНОГО ОБЕРИ ВЧЕНОГО  -->
 
-    <section class="scientist__section">
-        <div class="vector">
-            <img class="vector__img" src="./images/Vector.png" alt="vector">
+    <section class="info__section">
+        <div class="info__container">
+            <h2 class="info__title">
+                Обери вченого/их
+            </h2>
+            <ul class="info__scientists"></ul>
         </div>
-        <h1 class="scientist__title">Обери вченого/их</h1>
-
-        <ul class="scientist__list">
-            <li class="scientist__item">
-                <img class="scientist__photo" src="./images/galilei.jpg" alt="galilei">
-            </li>
-            <li class="scientist__item">
-                <img class="scientist__photo" src="./images/galilei.jpg" alt="galilei">
-            </li>
-            <li class="scientist__item">
-                <img class="scientist__photo" src="./images/galilei.jpg" alt="galilei">
-            </li>
-            <li class="scientist__item">
-                <img class="scientist__photo" src="./images/galilei.jpg" alt="galilei">
-            </li>
-            <li class="scientist__item">
-                <img class="scientist__photo" src="./images/galilei.jpg" alt="galilei">
-            </li>
-            <li class="scientist__item">
-                <img class="scientist__photo" src="./images/galilei.jpg" alt="galilei">
-            </li>
-            <li class="scientist__item">
-                <img class="scientist__photo" src="./images/galilei.jpg" alt="galilei">
-            </li>
-            <li class="scientist__item">
-                <img class="scientist__photo" src="./images/galilei.jpg" alt="galilei">
-            </li>
-            <li class="scientist__item">
-                <img class="scientist__photo" src="./images/galilei.jpg" alt="galilei">
-            </li>
-            <li class="scientist__item">
-                <img class="scientist__photo" src="./images/galilei.jpg" alt="galilei">
-            </li>
-            <li class="scientist__item">
-                <img class="scientist__photo" src="./images/galilei.jpg" alt="galilei">
-            </li>
-            <li class="scientist__item">
-                <img class="scientist__photo" src="./images/galilei.jpg" alt="galilei">
-            </li>
-        </ul>
-
-        <ul class="prompts__list">
-            <li class="prompts__item">
-                <button class="prompts__button" type="button">
-                    Які вчені народилися в 19 ст.
-                </button>
-            </li>
-            <li class="prompts__item">
-                <button class="prompts__button" type="button">
-                    Відсортувати вчених за алфавітом
-                </button>
-            </li>
-            <li class="prompts__item">
-                <button class="prompts__button" type="button">
-                    Відсортувати вчених за кількістю прожитих років
-                </button>
-            </li>
-            <li class="prompts__item">
-                <button class="prompts__button" type="button">
-                    Знайти вченого, який народився найпізніше
-                </button>
-            </li>
-            <li class="prompts__item">
-                <button class="prompts__button" type="button">
-                    Знайти рік народження Albert Einshtein
-                </button>
-            </li>
-            <li class="prompts__item">
-                <button class="prompts__button" type="button">
-                    Знайти вчених, прізвища яких починаються на на літеру “С” 
-                </button>
-            </li>
-            <li class="prompts__item">
-                <button class="prompts__button" type="button">
-                    Видалити всіх вчених, ім’я яких починається на “А”
-                </button>
-            </li>
-            <li class="prompts__item">
-                <button class="prompts__button" type="button">
-                    Знайти вченого, який прожив найдовше і вченого, який прожив найменше
-                </button>
-            </li>
-            <li class="prompts__item">
-                <button class="prompts__button" type="button">
-                    Знайти вчених, в яких співпадають перші літери імені і прізвища
-                </button>
-            </li>
-        </ul>
-
+        <ul class="info__prompts"></ul>
     </section>
-
     
     <script type="module" src="./index.js"></script>
 </body>
