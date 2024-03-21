@@ -13,6 +13,17 @@ function calculateTime() {
 
 document.querySelector('.time-button__calculator').addEventListener('click', calculateTime);
 
+//ВИСОКОСНИЙ РІК ВИСОКОСНИЙ РІК ВИСОКОСНИЙ РІК ВИСОКОСНИЙ РІК ВИСОКОСНИЙ РІК ВИСОКОСНИЙ РІК  // 
+document.querySelector('.input-but__leap').addEventListener('click', function() {
+    let userInput = document.getElementById('leap-input').value;
+
+    // Перевірка чи введене число - "29.02"
+    if (userInput === "29.02") {
+        document.getElementById('yes-no-leap').textContent = "Ви народились у високосний рік";
+    } else {
+        document.getElementById('yes-no-leap').textContent = "Ви не народились у високосний рік";
+    }
+});
 // НАЙБІЛЬШЕ ЧИСЛО НАЙБІЛЬШЕ ЧИСЛО НАЙБІЛЬШЕ ЧИСЛО НАЙБІЛЬШЕ ЧИСЛО НАЙБІЛЬШЕ ЧИСЛО НАЙБІЛЬШЕ ЧИСЛО 
 
 const inputOne = document.getElementById('one-input');
@@ -26,9 +37,11 @@ const inputOne = document.getElementById('one-input');
         const num3 = parseFloat(inputThree.value);
         if (!isNaN(num1) || !isNaN(num2) || !isNaN(num3)) {
             const maxNumber = Math.max(num1, num2, num3);
-            highestNumberElement.textContent = `Найбільше число яке ви ввели - ${maxNumber} `; 
+            highestNumberElement.textContent = `Найбільше число яке ви ввели - ${maxNumber} `
+            highestNumberElement.style.color = "#039900" 
         } else {
             highestNumberElement.textContent = "не вказано";
+            highestNumberElement.style.color = "red" 
         }
     }
     inputOne.addEventListener('input', findHighestNumber);
